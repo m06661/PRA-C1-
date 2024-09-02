@@ -3,14 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
+//* style.css */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4; /* Lichte achtergrondkleur */
+}
 
+header {
+  background-color: #1e90ff; /* Blauwe kleur */
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtiele schaduw voor diepte */
+}
 
-header{
-background-color: blue;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
+nav img {
+  height: 50px; /* Logo grootte */
+}
+
+nav a {
+  color: white; /* Witte tekst voor de links */
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline; /* Onderstrepen bij hover */
+}
+
+main {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center; /* Zorgt ervoor dat de tekst gecentreerd is */
+}
+
+main h1 {
+  color: #32cd32; /* Groen voor de titel */
+  margin-bottom: 20px;
+}
+
+main p {
+  font-size: 18px;
+  color: #333; /* Donkere kleur voor normale tekst */
+}
+
+/* Toegevoegde stijl voor het centreren van de afbeelding */
+.center-image {
+  display: block;
+  margin: 20px auto; /* Centreert de afbeelding horizontaal */
+  max-width: 100%; /* Zorgt ervoor dat de afbeelding niet breder is dan het scherm */
+  height: auto; /* Behoudt de verhoudingen van de afbeelding */
+}
+
+footer {
+  background-color: #1e90ff; /* Blauwe kleur */
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 
-.curiologo{
+footer h1{
+display: flex;
+justify-content: space-between;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+footer a {
+display: flex;
+justify-content: flex-end;
 
 }
